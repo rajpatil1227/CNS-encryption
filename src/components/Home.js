@@ -29,9 +29,9 @@ function Home() {
 
   const additionalContentStyle = {
     marginTop: "20px", // Adjust the spacing
-    color: "black",
+    color: "white",
     fontFamily:"bold",
-    background: "white"
+    // background: "white"
   };
 
   return (

@@ -110,9 +110,10 @@ function Login() {
 
   return (
     <div className="login" >
-      <h1>Login</h1>
+      {/* <h1>Login</h1> */}
 
       <form action="POST">
+      <h1 id="lg">Login</h1>
         <input
           type="email"
           onChange={(e) => {
@@ -141,11 +142,12 @@ function Login() {
         <input type="submit" onClick={submit} />
       </form>
 
-      <br />
+      {/* <br />
       <p style={{color:"white"}}>OR</p>
-      <br />
-
-      <Link to="/signup">Signup Page</Link>
+      <br /> */}
+      <div id="signup">
+        <Link to="/signup">Signup Page</Link>
+      </div>
     </div>
   );
 }

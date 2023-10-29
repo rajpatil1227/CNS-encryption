@@ -115,9 +115,9 @@ function Signup() {
 
     <div className="signup">
     <div className="login">
-      <h1>Signup</h1>
 
       <form action="POST">
+      <h1 id="lg">Signup</h1>
         <input
           type="email"
           onChange={(e) => {
@@ -146,11 +146,10 @@ function Signup() {
         <input type="submit" onClick={submit} />
       </form>
 
-      <br />
-      <p style={{color:"white"}}>OR</p>
-      <br />
 
-      <Link to="/">Login Page</Link>
+      <div id="signup">
+        <Link to="/">Login Page</Link>
+      </div>
     </div>
     </div>
     </>
