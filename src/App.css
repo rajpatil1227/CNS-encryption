@@ -1,0 +1,119 @@
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height as needed */
+  background-image: url(img/hack.png);
+  background-size: cover;
+}
+
+
+.video-bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.login form {
+  text-align: center;
+  max-width: 300px; /* Adjust the width as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff51;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  
+}
+/* .signup{
+  background-image: url(img/hacker.jpg) !important;
+} */
+.showPasswordDiv{
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  
+}
+
+.showPassword{
+  color: blue;
+  background-color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+
+
+.showPassword  :hover{
+  background-color: none;
+  color: blue;
+}
+
+button{
+  width: 150px;
+  padding: 10px;
+  background-color: #a2caf6;
+  color: #100101;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  /* background-color: #b9dbfe;  */
+  color: rgb(8, 86, 255);/* Change the background color on hover */
+}
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100vh; /* Set the height to 100% of the viewport height for full-page centering */
+}
+
+
+.login input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background-color: #68a7f5;
+}
+
+.homepage{
+  background-image: url(img/a.jpg);
+  background-size: cover;
+}
+
+.homeinside{
+  text-align: center;
+  align-items: center;
+  height: 50vh;
+  background-color: rgba(9, 232, 228, 0.618);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* You can add more styles as needed for your specific design */
